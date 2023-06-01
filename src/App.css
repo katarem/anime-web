@@ -1,0 +1,134 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+  background-color: #2f353a;
+  
+}
+
+.header-container{
+  width: 50%;
+  display:inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-container > a{
+  font-size: 17px;
+  font-weight: bold;
+  color: #979a9d;
+  text-decoration: none;
+}
+
+
+
+.header-container > a:visited{
+  font-size: 17px;
+  font-weight: bold;
+  color: #979a9d;
+  text-decoration: none;
+}
+
+.header-container > a:hover{
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.search-bar{
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  border: #2f353a solid 2px;
+  background-color: #2b2a33;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.search-bar > *{
+  margin: 10px;
+  border: 0;
+  height: 25px;
+}
+
+.search-button{
+  margin: 5px;
+  height: 20px;
+  background-image: url("./assets/imgs/search-icon24.png");
+  background-position: cover;
+  background-repeat: no-repeat;
+  width: 20px;
+}
+
+.loginButton{
+  background-color: #2b2a33;
+  width: 100px;
+  height: 40px;
+  margin: 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton > img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.loginButton-clicked{
+  background-color: lightblue;
+  width: 100px;
+  height: 40px;
+  margin: 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton-clicked > img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
