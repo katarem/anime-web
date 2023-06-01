@@ -1,6 +1,8 @@
 body{
   padding: 0;
   margin: 0;
+  width: 100vw;
+  height: 100h;
 }
 
 #root {
@@ -8,6 +10,8 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
+  width: 100vw;
+  height: 100h;
 }
 
 .header{
@@ -17,30 +21,44 @@ body{
   
 }
 
+.title{
+  text-align: left;
+  width: 400px;
+}
+
 .header-container{
-  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar{
+  width: 700px;
   display:inline-flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.header-container > a{
+.navbar > a{
+  font-size: 17px;
+  font-weight: bold;
+  color: #979a9d;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+
+
+.navbar > a:visited{
   font-size: 17px;
   font-weight: bold;
   color: #979a9d;
   text-decoration: none;
 }
 
-
-
-.header-container > a:visited{
-  font-size: 17px;
-  font-weight: bold;
-  color: #979a9d;
-  text-decoration: none;
-}
-
-.header-container > a:hover{
+.navbar > a:hover{
   font-size: 17px;
   font-weight: bold;
   color: white;
@@ -54,7 +72,7 @@ body{
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff;
+  background-color: #f5f5f5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -68,6 +86,7 @@ h1 {
 }
 
 .search-bar{
+  margin-right: 5px;
   height: 30px;
   width: 200px;
   display: flex;
@@ -131,4 +150,118 @@ h1 {
   width: 20px;
   height: 20px;
   margin-right: 5px;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.animeDIV{
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 1100px;
+  height: 45px;
+  background-color: #2b2a33;
+  font-size: 25px;
+  margin: 20px;
+  border-bottom: 3px solid #01bcf3;
+}
+
+.footer{
+  margin-top: 610px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f353a;
+  height: 60px;
+}
+
+.lastepisodes-header{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.today{
+  color: white;
+  background-color: #01bcf3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60px;
+  border-radius: 20px;
+  height: 30px;
+}
+
+.content{
+  flex-grow: 1;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+}
+
+.right{
+  width: 100%;
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 10px;
+  height: 500px;
+  width: 40%;
+}
+.left-content{
+  display: flex;
+  width: 80%;
+}
+
+.emision > img{
+  width: 20px;
+  height: 20px;
+}
+
+.emision{
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.vidcontainer{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  
+}
+
+
+
+#hentai{
+  color: #ff83f8;
 }
