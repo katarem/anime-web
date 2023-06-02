@@ -1,7 +1,6 @@
 import playvid from "../assets/imgs/playvid16.png"
 
 function Video({title, episodeCount, backgroundURL} : VideoBuilder){
-
     if(title.length === 0)
         title = 'ExampleAnime';
     if(episodeCount === 0)
@@ -12,7 +11,7 @@ function Video({title, episodeCount, backgroundURL} : VideoBuilder){
     const divStyle : React.CSSProperties = {
         backgroundImage: `url(${backgroundURL})`,
         backgroundPosition: "right",
-        backgroundSize: "cover"
+        backgroundSize: "cover",
     }
 
 

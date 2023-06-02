@@ -46,11 +46,11 @@ function App() {
               <AnimeEmision title='Naruto' type=''></AnimeEmision>
               <AnimeEmision title='Fairy Tail' type=''></AnimeEmision>
               <AnimeEmision title='Bocchi The Rock!' type=''></AnimeEmision>
-              <AnimeEmision title='' type=''></AnimeEmision>
-              <AnimeEmision title='' type=''></AnimeEmision>
-              <AnimeEmision title='' type=''></AnimeEmision>
-              <AnimeEmision title='' type=''></AnimeEmision>
-              <AnimeEmision title='' type=''></AnimeEmision>
+              <AnimeEmision title='SpyXFamily' type=''></AnimeEmision>
+              <AnimeEmision title='Kimetsu No Yaiba' type=''></AnimeEmision>
+              <AnimeEmision title='Shingeki no Kyojin' type=''></AnimeEmision>
+              <AnimeEmision title='Assesination Classroom' type=''></AnimeEmision>
+              <AnimeEmision title='Danganronpa' type='FILM'></AnimeEmision>
             </div>
           </div>
         </div>
@@ -74,16 +74,17 @@ function App() {
                 <Video title='SpyXFamily' episodeCount={25} backgroundURL='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrGE3QkCX5CnNtBClnZ-rRHKcqHzvvq5c5vw&usqp=CAU'></Video>
                 <Video title='Kono Subarashii Sekai ni Shukufuku wo!' episodeCount={13} backgroundURL='https://ramenparados.com/wp-content/uploads/2021/07/KonoSuba-new-anime-2021.jpg'></Video>
                 <Video title={'Tensei Shitara Slime Datta Ken'} episodeCount={25} backgroundURL={'https://areajugones.sport.es/wp-content/uploads/2020/03/Tensei-Shitara-Slime-Datta-Ken.jpg'}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
-                <Video title={''} episodeCount={0} backgroundURL={''}></Video>
+                <Video title={'Highschool DxD'} episodeCount={23} backgroundURL={'https://e1.pxfuel.com/desktop-wallpaper/372/173/desktop-wallpaper-high-school-dxd-highschool-dxd-android.jpg'}></Video>
+                <Video title={'Classroom of the Elite'} episodeCount={13} backgroundURL={'https://img.uhdpaper.com/wallpaper/classroom-of-the-elite-season-2-characters-637@1@h-preview.jpg?dl'}></Video>
+                <Video title={'Akame Ga Kill'} episodeCount={25} backgroundURL={'https://www.pixelstalk.net/wp-content/uploads/images6/Akame-Ga-Kill-Wallpaper-HD-Free-download.jpg'}></Video>
+                <Video title={'Rent a Girlfriend'} episodeCount={12} backgroundURL={'https://e0.pxfuel.com/wallpapers/24/492/desktop-wallpaper-rent-a-girlfriend.jpg'}></Video>
+                <Video title={'Bleach'} episodeCount={309} backgroundURL={'https://www.xtrafondos.com/wallpapers/bleach-thousand-year-blood-war-anime-11093.jpg'}></Video>
+                <Video title={'Boku No Hero Academia'} episodeCount={27} backgroundURL={'https://i.pinimg.com/originals/bd/e3/90/bde3904a0af0711287025bfc43b9cb56.jpg'}></Video>
+                <Video title={'Re:Zero'} episodeCount={24} backgroundURL={'https://e1.pxfuel.com/desktop-wallpaper/472/187/desktop-wallpaper-3-re-zero-re-zero.jpg'}></Video>
+                <Video title={'Shingeki No Kyojin'} episodeCount={81} backgroundURL={'https://i.pinimg.com/originals/17/0c/6a/170c6a2d3817b80630704114ca8ce5c3.jpg'}></Video>
+                
+                <Video title={'Absolute Duo'} episodeCount={12} backgroundURL={'https://img5.goodfon.com/wallpaper/nbig/4/b3/gorod-devushki-fonar-absolute-duo-idealnaia-para.jpg'}></Video>
+                <Video title={'Kimetsu No Yaiba'} episodeCount={21} backgroundURL={'https://i.blogs.es/2db724/demon-slayer1/1366_2000.jpeg'}></Video>
             </div>
           </div>
         </div>
