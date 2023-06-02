@@ -106,8 +106,7 @@ h1 {
 .search-button{
   margin: 5px;
   height: 20px;
-  background-image: url("./assets/imgs/search-icon24.png");
-  background-position: cover;
+  background-image: url("../assets/imgs/search-icon24.png");
   background-repeat: no-repeat;
   width: 20px;
 }
@@ -167,7 +166,7 @@ h1 {
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 1100px;
+  width: 1200px;
   height: 45px;
   background-color: #2b2a33;
   font-size: 25px;
@@ -228,12 +227,15 @@ h1 {
   align-items: center;
   color: black;
   font-size: 10px;
-  height: 500px;
-  width: 40%;
+  height: 670px;
+  width: 100%;
+  margin-left: -40px;
+  margin-right: 35px;
 }
 .left-content{
   display: flex;
-  width: 80%;
+  flex-direction: column;
+  width: 100%;
 }
 
 .emision > img{

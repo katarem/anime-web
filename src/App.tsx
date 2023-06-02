@@ -1,9 +1,11 @@
-import './App.css'
-import './Video.css'
-import playvid from "./assets/imgs/playvid16.png"
+import './css/App.css'
+import './css/Video.css'
+import './css/Emision.css'
+import searchicon from "./assets/imgs/search-icon16.png"
 import usericon from "./assets/imgs/user30.png"
 import playicon from "./assets/imgs/play16.png"
 import Video from './components/Video'
+import AnimeEmision from './components/AnimeEmision'
 function App() {
   return (
     <>
@@ -35,8 +37,20 @@ function App() {
         <div className='left'>
           <div className='left-content'>
             <div className='emision'>
-              <h2>ANIMES EN EMISIÓN</h2>
+              <h3>ANIMES EN EMISIÓN</h3>
               <img src={playicon} alt="" />
+            </div>
+            <div className='emision-items'>
+              {/* emission anime componentes */}
+              <AnimeEmision title='One Piece' type=''></AnimeEmision>
+              <AnimeEmision title='Naruto' type=''></AnimeEmision>
+              <AnimeEmision title='Fairy Tail' type=''></AnimeEmision>
+              <AnimeEmision title='Bocchi The Rock!' type=''></AnimeEmision>
+              <AnimeEmision title='' type=''></AnimeEmision>
+              <AnimeEmision title='' type=''></AnimeEmision>
+              <AnimeEmision title='' type=''></AnimeEmision>
+              <AnimeEmision title='' type=''></AnimeEmision>
+              <AnimeEmision title='' type=''></AnimeEmision>
             </div>
           </div>
         </div>
