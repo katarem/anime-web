@@ -1,34 +1,16 @@
 import './css/App.css'
 import './css/Video.css'
 import './css/Emision.css'
-import searchicon from "./assets/imgs/search-icon16.png"
-import usericon from "./assets/imgs/user30.png"
+import './css/AnimeEstreno.css'
 import playicon from "./assets/imgs/play16.png"
 import Video from './components/Video'
 import AnimeEmision from './components/AnimeEmision'
+import NavBar from './components/NavBar'
+import AnimeEstreno from './components/AnimeEstreno'
 function App() {
   return (
     <>
-    <div className='header'>
-      <div className='header-container'>
-        <div className='title'>
-          <h1>AnimeWeb</h1>
-        </div>
-        <div className='navbar'>
-          <a href='#'>INICIO</a>
-          <a href='#' id='hentai'>HENTAI</a>
-          <a href='#'>DIRECTORIO ANIME</a>
-          <div className='search-bar'>
-            <input type="text" placeholder='Search...'/>
-            <button className='search-button' type="button"></button>
-          </div>
-          <button id="login"className='loginButton'>
-            <img src={usericon}/>
-            <h4>LOGIN</h4>
-          </button>
-        </div>
-      </div>
-    </div>
+    <NavBar/>
     <div className='main-content'>
       <div className='animeDIV'>
         AnimeWeb tu fuente de anime gratis en HD
@@ -86,6 +68,38 @@ function App() {
                 <Video title={'Absolute Duo'} episodeCount={12} backgroundURL={'https://img5.goodfon.com/wallpaper/nbig/4/b3/gorod-devushki-fonar-absolute-duo-idealnaia-para.jpg'}></Video>
                 <Video title={'Kimetsu No Yaiba'} episodeCount={21} backgroundURL={'https://i.blogs.es/2db724/demon-slayer1/1366_2000.jpeg'}></Video>
             </div>
+            <div className='lastepisodes-header'>
+              <h2>Últimos animes agregados</h2>         
+              <div className='today'>
+                <h4>HOY</h4>
+              </div>
+            </div>
+            <div className='anime-container'>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+                  <AnimeEstreno title={'paco'} type={''} url={''}/>
+              </div>
           </div>
         </div>
       </div>
