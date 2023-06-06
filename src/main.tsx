@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import MainPage from './pages/MainPage'
 import HentaiPage from './pages/HentaiPage'
-import Navbar from './src/components/Navbar'
+import Navbar from './components/Navbar'
 
 const router = createBrowserRouter([
   {

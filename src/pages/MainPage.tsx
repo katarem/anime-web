@@ -7,7 +7,7 @@ import '../css/App.css'
 import '../css/AnimeEstreno.css'
 import '../css/Emision.css'
 import '../css/Video.css'
-import AnimeEstrenoContainer from "../components/AnimeEstrenoContainer"
+import AnimeEstrenoContainer from '../components/AnimeEstrenoContainer'
 
 function MainPage(){
     return(
