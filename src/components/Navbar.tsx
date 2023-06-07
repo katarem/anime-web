@@ -1,5 +1,5 @@
 import usericon from "../assets/imgs/user30.png";
-
+import '../css/Navbar.css'
 function Navbar(){
     return (
         <div className='header'>
