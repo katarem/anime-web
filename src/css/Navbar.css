@@ -2,22 +2,24 @@
     width: 100%;
     text-align: center;
     background-color: #2f353a;
-    
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
   }
   
   .title{
     text-align: left;
-    width: 400px;
+    width: 19rem;
   }
   
   .header-container{
-    justify-content: center;
-    align-items: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   .navbar{
-    width: 700px;
+    margin-left: 2rem;
+    width: 50rem;
     display:inline-flex;
     align-items: center;
     justify-content: space-around;
